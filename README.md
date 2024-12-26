@@ -12,3 +12,5 @@ All files are separated into 3 main folders:
   * **TODO**: organize `NOTEBOOKS/ANALYSIS/` files and remove older versions.
 
 Some files are omitted for privacy purposes. These files are mainly placeholder image files used in some of our testing and other miscellaneous deprecated files.
+
+*Update 12/25/24*: Any CSV files marked with an `X_` at the begin signify a low quality recording, likely for software testing purposes, and are not intended to be used in training an algorithm.

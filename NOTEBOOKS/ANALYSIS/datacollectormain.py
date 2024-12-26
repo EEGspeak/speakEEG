@@ -184,7 +184,7 @@ while running and current_stimulus_index < len(stimuli_sequence):
 header = ['EEG Channel {}'.format(ch) for ch in eeg_channels]
 header.append('Marker')
 
-with open('AAROOSH_test19.csv', 'w', newline='') as csvfile:  # Change path to your liking
+with open('P300.csv', 'w', newline='') as csvfile:  # Change path to your liking
     writer = csv.writer(csvfile)
     writer.writerow(header)
     writer.writerows(eeg_data)
