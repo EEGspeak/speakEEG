@@ -1,3 +1,8 @@
+# MAIN DATA COLLECTION ALGORITHM FOR P300
+# W/ Flashing random letters + beeping
+# 12/25/24 Rishabh
+
+
 import pygame
 import time
 import csv
@@ -12,7 +17,7 @@ pygame.init()
 pygame.mixer.init()
 
 # Load the beep sound
-beep_sound = pygame.mixer.Sound("beep.wav")  # Ensure you have a beep.wav file in your directory
+beep_sound = pygame.mixer.Sound("AV/beep.wav")  # Ensure you have a beep.wav file in your directory
 
 # Screen dimensions
 screen = pygame.display.set_mode((800, 600))
