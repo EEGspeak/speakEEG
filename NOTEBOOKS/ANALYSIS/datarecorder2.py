@@ -13,7 +13,7 @@ pygame.init()
 pygame.mixer.init()
 
 # Load the beep sound
-beep_sound = pygame.mixer.Sound("beep.wav")  # Ensure you have a beep.wav file in your directory
+beep_sound = pygame.mixer.Sound("AV/beep.wav")  # Ensure you have a beep.wav file in your directory
 
 # Screen dimensions
 screen = pygame.display.set_mode((800, 600))
@@ -153,7 +153,7 @@ while running:
                   oddball_position if current_stimulus == "oddball" else None)
 
 # Save the EEG data to a CSV file
-with open('rish_nov_19_1.csv', 'w', newline='') as csvfile:  # Change path to your liking
+with open('P300.csv', 'w', newline='') as csvfile:  # Change path to your liking
     writer = csv.writer(csvfile)
     writer.writerow(["1-31", "CP3", "C3", "F5", "PO3", "PO4", "F6", "C4", "CP4", "Marker"])
     writer.writerows(eeg_data)
